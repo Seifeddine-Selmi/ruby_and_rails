@@ -31,3 +31,21 @@ Things you may want to cover:
 
 ###  rails server
 *** http://localhost:3000
+
+*** Generate Controller
+### rails g controller books index
+
+http://localhost:3000/books/index
+
+
+*** Create table database
+### rails generate migration TableBooks
+
+ class TableBooks < ActiveRecord::Migration
+	  def change
+	    create_table :books
+	    add_column :books, :title, :string
+	  end
+end
+
+ ### rake db:migrate
