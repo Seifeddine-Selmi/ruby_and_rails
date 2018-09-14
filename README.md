@@ -22,11 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * Create project ruby and rails
-rails new rubyrails -d mysql
-rake db:create 
+*** rails new rubyrails -d mysql
+*** rake db:create 
 
-cd rubyrails
-cd /c/Projects/rubyrails
+*** cd rubyrails
 
-rails server
-http://localhost:3000
+*** rails server
+*** http://localhost:3000
