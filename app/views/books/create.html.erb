@@ -1,0 +1,6 @@
+<h1>Créer un livre</h1>
+
+<%= form_tag "/books", method: "post" do %>
+  <input type="text" name="title" />
+  <input type="submit" value="Ajouter le livre" />
+<% end %>
